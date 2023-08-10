@@ -1,0 +1,58 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,b;
+
+    printf("Enter a and b:");
+    scanf("%d\n%d",&a,&b);
+
+    int sum;
+    sum=a+b;
+    printf("sum is:%d\n",sum);
+
+    int pro;
+    pro=a*b;
+    printf("product:%d\n",pro);
+
+    int sub;
+    sub=a-b;
+    printf("substration:%d\n",sub);
+
+    int div;
+    div=b/a;
+    printf("division is:%d\n",div);
+
+    int mod;
+    mod=a%b;
+    printf("modulous is:%d\n",mod);
+
+
+    int and,or,not,xor;
+    and=a&b;
+    or=a|b;
+    not=!b;
+    xor=a^b;*/
+    printf("and:%d\n",and);
+    printf("or:%d\n",or);
+    printf("not:%d\n",not);
+    printf("xor:%d\n",xor);
+
+    int and1,or1;
+    and1=a&&b;
+    or1=a||b;
+
+    printf("DoubleAnd:%d\n",and1);
+    printf("doubleor:%d\n",or1);
+    if(a&&b)
+    {
+        printf("yes");
+    }
+    else{
+        printf("no");
+    }
+
+
+    return 0;
+}
